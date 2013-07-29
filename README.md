@@ -3,7 +3,7 @@ Impact Shadow Casting
 
 ##### An ImpactJS plugin which casts shadows using a field-of-view algorithm. #####
 
-#### Installation: ####
+### Installation: ###
 
 ##### Credits: #####
 
