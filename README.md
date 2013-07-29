@@ -7,5 +7,5 @@ Impact Shadow Casting
 
 ##### Credits: #####
 
-Plugin partially based on [Impact Fog](https://github.com/jfernandez/impact-fog/) by [Jose Fernandez](https://github.com/jfernandez).
-Algorithm used can be found [here](http://roguebasin.roguelikedevelopment.org/index.php?title=FOV_using_recursive_shadowcasting).
+- Plugin partially based on [Impact Fog](https://github.com/jfernandez/impact-fog/) by [Jose Fernandez](https://github.com/jfernandez).
+- Algorithm used can be found [here](http://roguebasin.roguelikedevelopment.org/index.php?title=FOV_using_recursive_shadowcasting).
