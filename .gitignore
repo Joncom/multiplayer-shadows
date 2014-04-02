@@ -1,3 +1,10 @@
+.DS_Store
+lib/impact
+lib/weltmeister
+node_modules/*
+npm-debug.log
+config.js
+
 # Baked Games
 game.min.js
 
