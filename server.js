@@ -72,4 +72,4 @@ var server = http.createServer().listen(config.port);
 ig.io = require('socket.io').listen(server);
 ig.io.set('log level', 1);
 
-require(impactLibPath + '/game/main.js');
+require(impactLibPath + '/game/server/main.js');
