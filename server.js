@@ -1,12 +1,6 @@
 var path = require('path');
 var fs = require('fs');
 
-try {
-    var config = require('./config.js');
-} catch (err) {
-    throw "Missing config.js. Run 'cp config.js.example config.js'.";
-}
-
 // Setup paths
 var root = __dirname;
 var impactLibPath = root + '/lib';
@@ -65,9 +59,11 @@ window.addEventListener = function() { };
 window.HTMLElement = Canvas;
 require(impactLibPath + '/impact/impact.js');
 
+require(impactLibPath + '/game/config.js');
+
 // Setup the webserver
 var http = require('http');
-var server = http.createServer().listen(config.port);
+var server = http.createServer().listen(ig.config.port);
 // Setup the websockets
 ig.io = require('socket.io').listen(server);
 ig.io.set('log level', 1);
